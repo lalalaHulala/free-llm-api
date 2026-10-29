@@ -1,0 +1,20 @@
+# 凭据与本地数据，绝不入库
+.env
+*.env
+secrets/
+*.key
+freellm_keys.json
+
+# 运行时产物
+__pycache__/
+*.pyc
+.cache/
+*.log
+
+# 打包产物
+dist/
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
